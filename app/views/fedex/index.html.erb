@@ -1,0 +1,17 @@
+<table>
+
+<tr>
+<td>Peso Etiqueta</td>
+<td>Peso Real</td>
+<td>Sobrepeso</td>
+</tr>
+
+<% @arrayResultados.each do |aR| %>
+<tr>
+  <td><%= aR[0]%></td>
+<td><%= aR[1]%></td>
+<td><%= aR[2]%></td>
+
+</tr>
+<% end %>
+</table>
